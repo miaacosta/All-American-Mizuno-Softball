@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All American Mizuno</title>
+    <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!--Menu Bar-->
+    <div class="top-header">
+<img src="http://www.softballschool.com/wp-content/uploads/2017/08/All-American-logo-Header-Website100px.png" class="logo" alt="mizuno logo" />
+        <ul class="sidenav">
+        <ul class="sidenav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="page1.html">All About Us</a></li>
+            <li><a href="page2.html">18U Gold</a></li>
+            <li><a href="page3.html">College Softball Signings</a></li>
+        </ul>
+    </div>
+
+<h1>About All American Softball School</h1>
+<h5 class="grey">Founded nearly 25 years ago, All-American Softball, Inc. is a privately-owned business directed by collegiate and professional softball standout,
+ Kelly Jackson. We are the biggest business of our kind in the area, as well as the most personal and accommodating to our athletes' needs. 
+We offer private and group lessons for ages six and up in all areas of softball as well as several camps and clinics.</h5>
+ <h2> Our Mission</h2>
+<h5 class="grey"> Our mission is to motivate and teach young athletes the fundamentals of competition and discipline and to provide a positive environment 
+for the development of successful athletic careers.</h5>
+<h3>Our Instructors </h3>
+<img src="http://www.kj22.com/wp-content/uploads/2012/07/Kellys-Best-Picture-319219-edited.jpg" class=center> 
+<h4> Kelly Jackson <br> Owner, Founder and President</h4>
+<p class="grey"> Kelly Jackson has been a leading presence in the world of softball for over 30 years. 
+Anchoring the team at first base for Arizona State University's Sun Devils during her 
+college years, Kelly took her experience into the teaching arena by establishing All 
+American Softball, Inc. As President, Owner and a student of the game, Kelly brings 
+insurmountable expertise and experience to All American Softball</p><br>
+<img src="http://www.kj22.com/wp-content/uploads/2012/07/keri_picture-822306-edited-100654-edited-402652-edited.png" class=center> 
+<h4> Keri Casas<br> Director of Operations</h4>
+<p class="grey">Keri Casas is the Director of Operations as well as lead instructor at All-American Softball, Inc. Beginning her softball career in private lessons 
+through All-American Softball at the age of 9, Keri worked her way into the College Prep Program with aspirations of a collegiate softball scholarship. 
+Thanks to her dedication to lessons, the game, and academics, Keri was awarded a Division 1 scholarship to Syracuse University, graduating with academic
+ honors as a pitcher and hitter.</p><hr>
+<div class="box">About Them</div>
+<div class="box">All of our instructors give lessons in pitching, hitting, catching, and defense. Each member of our staff is trained by Kelly Jackson to ensure that 
+they impart the same quality of information and fundamentals to our students. Each of our instructors have graduated from the All-American College Prep 
+program and have had successful athletic careers playing college-level softball.</div><hr>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <select id="Email" name="Email">
+      <option value="example">Ex:myname@example.com</option>
+      <option value="@yahoo.com">@yahoo.com</option>
+      <option value="@gmail.com">@gmail.com</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+    
+
+</body>
+
+</html>
